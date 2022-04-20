@@ -77,6 +77,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="216" id="KC2-af-5M6"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="965-ZI-i2g"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="tFG-ti-tuA"/>
+                                </connections>
                             </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -90,6 +94,11 @@
                             <constraint firstItem="C2p-S2-EfK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rju-32-OHH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bitcoinLabel" destination="SHu-l3-PK2" id="mPp-2c-tDS"/>
+                        <outlet property="currencyLabel" destination="Qc8-q8-lcJ" id="KRb-F7-XLp"/>
+                        <outlet property="currencyPicker" destination="xC3-c4-wWx" id="aPt-VL-blc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
